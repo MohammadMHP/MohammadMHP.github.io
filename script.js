@@ -104,7 +104,7 @@ function setupBlowDetection() {
             const dataArray = new Uint8Array(bufferLength);
             
             // تنظیم آستانه جدید
-            const BLOW_THRESHOLD = 80;
+            const BLOW_THRESHOLD = 55;
             // مقدار اولیه برای میانگین نمایی
             let smoothedVolume = 0;
             // فاکتور نرم‌کنندگی (بین 0 و 1؛ عدد بالاتر، نوسانات کمتری دارد)
