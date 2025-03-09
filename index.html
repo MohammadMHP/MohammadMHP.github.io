@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday 🎂</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./presents.css">
+</head>
+
+<body class="text-center">
+    <!-- بخش هرو (هدر) -->
+    <div class="hero-section">
+        <h1>🎂 تولدت مبارک ماه بانو</h1>
+        <div id="cake-controls">
+            <button id="start" class="button-30">🍰 بزن تا کیک بیاد!</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cake-message text-center">
+            <h5 class="cake-off">❣ Happy Birthday Dude ❣</h5>
+            <p class="cake-off">
+                ❤ Love you to the moon and back ❤
+            </p>
+        </div>
+
+        <div id="cake-holder">
+            <div class="cake">
+                <div class="plate"></div>
+                <div class="layer layer-bottom"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-top"></div>
+                <div class="icing"></div>
+                <div class="drip drip1"></div>
+                <div class="drip drip2"></div>
+                <div class="drip drip3"></div>
+
+                <div class="candle">
+                    <!-- ستاره‌ها را در همین جا قرار می‌دهیم -->
+                    <div class="star-group">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="microphone-controls" style="display: none;">
+            <button id="blow-candle" class="button-30">Blow Out Candle 💨</button>
+        </div>
+        <canvas class="confetti" id="canvas"></canvas>
+    </div>
+
+    <!-- اضافه کردن container جدید برای جعبه‌های هدیه -->
+    <div id="presents-container" style="opacity: 0; transition: opacity 1s;">
+        <div class="text" id="presents-text" style="display: none;" data-splitting="">
+            بزن روی جعبه‌ها!
+        </div>
+        <div class="presents">
+            <div class="present orange" data-link="./MusicPlayer/dist/MusicPlayer.html">
+                <div class="lid"></div>
+                <div class="box"></div>
+                <div class="bow"></div>
+                <div class="ribbon"></div>
+            </div>
+            <div class="present blue" data-link="./MusicPlayer/dist/MusicPlayer.html">
+                <div class="lid"></div>
+                <div class="box"></div>
+                <div class="bow"></div>
+                <div class="ribbon"></div>
+            </div>
+            <div class="present green" data-link="./MusicPlayer/dist/MusicPlayer.html">
+                <div class="lid"></div>
+                <div class="box"></div>
+                <div class="bow"></div>
+                <div class="ribbon"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- کتابخانه‌های لازم -->
+    <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="./Confetti.js"></script>
+    <script src="./script.js"></script>
+    <!-- اضافه کردن فایل جاوا اسکریپت برای جعبه‌ها -->
+    <script src="./presents.js"></script>
+</body>
+
+</html>

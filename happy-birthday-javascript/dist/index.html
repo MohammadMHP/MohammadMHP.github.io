@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Presents</title>
+  <!-- کتابخانه‌های Splitting و mo.js -->
+  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+  <script src="https://cdn.jsdelivr.net/mojs/0.288.1/mo.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>
+  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+  <!-- استایل جعبه‌ها (همان کدی که دادید) را در یک فایل CSS جداگانه هم می‌توانید بگذارید -->
+  <link rel="stylesheet" href="./presents.css">
+</head>
+
+<body>
+
+  <!-- کانتینری که جعبه‌ها و متن راهنما در آن قرار می‌گیرد -->
+  <div class="container" id="presents-container" style="opacity:0; transition: opacity 1s;">
+    <!-- این متن ابتدا پنهان است و بعد از ظاهر شدن جعبه‌ها نمایش داده می‌شود -->
+    <div class="text" id="presents-text" style="display: none;" data-splitting="">
+      بزن روی جعبه‌ها!
+    </div>
+
+    <!-- بلوک جعبه‌ها -->
+    <div class="presents">
+      <!-- هر جعبه یک data-link دارد تا بدانیم به کدام صفحه برویم -->
+      <div class="present orange" data-link="page-orange.html">
+        <div class="lid"></div>
+        <div class="box"></div>
+        <div class="bow"></div>
+        <div class="ribbon"></div>
+      </div>
+
+      <div class="present blue" data-link="page-blue.html">
+        <div class="lid"></div>
+        <div class="box"></div>
+        <div class="bow"></div>
+        <div class="ribbon"></div>
+      </div>
+
+      <div class="present green" data-link="page-green.html">
+        <div class="lid"></div>
+        <div class="box"></div>
+        <div class="bow"></div>
+        <div class="ribbon"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- اسکریپت اصلی جعبه‌ها در فایل جداگانه -->
+  <script src="./presents.js"></script>
+</body>
+
+</html>
