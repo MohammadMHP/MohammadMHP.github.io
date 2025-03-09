@@ -1,7 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
 
+@font-face {
+  font-family: 'Azin';
+  src: url('../../Birthday-Cake-With-Blowing-Candle/Fonts/Far_Casablanca.ttf') format('truetype');
+  /* font-weight: bold; */
+}
+
 :root {
   --primary-clr: rgba(228, 228, 229, 1);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* اگر اصلاً اسکرول عمودی نمی‌خواهید: */
+  /* overflow-y: hidden; */
 }
 
 * {
@@ -27,11 +41,13 @@ body {
 }
 
 @keyframes slidein {
+
   0%,
   100% {
     background-position: 20% 0%;
     background-size: 3400px;
   }
+
   50% {
     background-position: 100% 0%;
     background-size: 2400px;
@@ -60,9 +76,6 @@ body {
   height: 100%;
   border-radius: inherit;
   -webkit-box-reflect: below -5px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
-  transform-origin: center;
-  transform: perspective(800px);
-  transition: 0.3s ease-out;
   pointer-events: none;
   user-select: none;
 }
@@ -104,7 +117,8 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--primary-clr);
-  width: 380px;
+  width: 90%;
+  max-width: 380px;
   padding: 10px 30px;
   border-radius: 20px;
 }
@@ -119,6 +133,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   opacity: 0.6;
+  font-family: Azin;
 }
 
 /* Music Player Progress */
