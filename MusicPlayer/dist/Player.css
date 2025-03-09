@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: 'Azin';
-  src: url('../../Birthday-Cake-With-Blowing-Candle/Fonts/Far_Casablanca.ttf') format('truetype');
-  /* font-weight: bold; */
+  src: url('../../Fonts/Far_Casablanca.ttf') format('truetype');
 }
 
 :root {
