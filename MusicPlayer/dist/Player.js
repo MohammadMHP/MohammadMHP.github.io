@@ -18,7 +18,7 @@ const songs = [
     title: "Bekhand",
     name: "از طرف زهرا",
     source:
-      "https://dl.rozmusic.com/Music/1398/01/05/Ashvan%20-%20Bekhand.mp3",
+      "https://irsv.upmusics.com/Downloads/Musics/Ashvan%20-%20Bekhand%20(320).mp3",
   },
   {
     title: "Negine - Mande Nabashi",
