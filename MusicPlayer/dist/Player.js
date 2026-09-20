@@ -15,27 +15,27 @@ const songs = [
       "https://dls.musics-fa.com/tagdl/1402/Martik%20-%20Ahoo%20Khanom%20(320).mp3",
   },
   {
-    title: "Cheshme siyahe",
+    title: "Bekhand",
     name: "از طرف زهرا",
     source:
-      "https://dl1.musickhone.com/music/2022/01/31/nooshafarin__cheshme_siyahe%20negahe%20to%20baraye%20man%20yek%20panjerast%20.mp3",
+      "https://dl.rozmusic.com/Music/1398/01/05/Ashvan%20-%20Bekhand.mp3",
   },
   {
-    title: "VefaSerifova - CennetSayilir",
+    title: "Negine - Mande Nabashi",
     name: "از طرف زهرا",
-    source: "https://dl.sansizmusic.ir/2/vefa_serifova_cennet_sayilir.mp3",
+    source: "https://kabulmusic.com/force-download.php?file=https%3A%2F%2Fdl.kabulmusic.com%2Fmedia%2Fmusic%2Fnegina-amanghulova%2Fnegina_amanghulova_chadar_mashi_kabulmusic.com.mp3",
   },
   {
     title: "Milad - Shahram Shabpareh",
     name: "از طرف بالتازار",
     source:
-      "https://dlrrooz.top/2024/music/7/New/Shahram%20Shabpareh%20-%20Milad%20[320].mp3",
+      "https://musicviral.musitraf.com/Music/04-03/Shahram%20Shabpareh%20-%20In%20Shabi%20Ke%20Migan%20Shab%20Nist.mp3",
   },
   {
     title: "Be To Hargez - Hengameh",
     name: "از طرف محمد",
     source:
-      "https://dlrrooz.top/2024/music/6/New/Hengameh%20-%20Bee%20To%20Hargez%20(320).mp3",
+      "https://musicviral.musitraf.com/Music/03-08/kashki%20donya%20vase%20yek%20shab%20male%20man.mp3",
   },
 
   {
